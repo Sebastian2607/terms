@@ -4,75 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terminos y Condiciones</title>
-    <style>
-        *{
-            font-family: Arial;
-        }
-
-        body{
-            max-width: 700px;
-            padding: 32px 0;
-            margin: 0 auto;
-        }
-    
-        h1{
-            font-weight: 800;
-            padding-bottom: 8px;
-        }
-
-        h2{
-            padding-top: 24px;
-            padding-bottom: 12px;
-            font-weight: 700;
-        }
-
-        th, td{
-            padding-top: 8px;
-            padding-bottom: 8px;
-            width: 380px;
-            text-align: left;
-        }
-
-        thead{
-            border-bottom: 1px solid gray;
-        }
-
-        #Label{
-            border-bottom: 1px solid gray;
-        }
-
-        ol li::marker{
-            color: #6D28D9
-        }
-
-        ul li::marker{
-            color: #6D28D9
-        }
-
-        table{
-            border-collapse: collapse;
-        }
-
-        span, figcaption{
-            padding-top: 16px;
-            padding-bottom: 16px;
-            display: flex;
-            justify-content: center;
-        }
-
-        footer{
-            background-color: #F5F5F5;
-            padding-top: 16px;
-            padding-bottom: 24px;
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
-
-        a{
-            color: #6D28D9;
-        }
-    </style>
+    <link rel="stylesheet" href="../estilos/terminos.css">
 </head>
 <body id="Pagina">
     <header>
@@ -117,22 +49,24 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr id="Label">
+                    <tr>
                         <td>Tarjeta de Crédito</td>
                         <td>0%</td>
                         <td>Inmediato</td>
                     </tr>
-                    <tr id="Label">
+                    <tr>
                         <td>Paypal</td>
                         <td>0.5%</td>
                         <td>Inmediato</td>
                     </tr>
+                </tbody>
+                <tfoot>
                     <tr>
                         <td>Transferencia Bancaria</td>
                         <td>1%</td>
                         <td>1-2 días hábiles</td>
                     </tr>
-                </tbody>
+                </tfoot>
             </table>
         </section>
         <section>
@@ -149,7 +83,7 @@
             <p>En FullStock nos enorgullecemos de la calidad de nuestros productos.</p>
             <div>
                 <figure>
-                    <span><img id="img" src="./Guarantee.png" alt=""></span>
+                    <span><img id="img" src="../archivos/Guarantee.png" alt=""></span>
                     <figcaption>Garantía de Satisfacción: Si no te gusta, ¡te devolvemos el dinero!</figcaption>
                 </figure>
             </div>
@@ -167,34 +101,34 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr id="Label">
+                    <tr>
                         <td>América Latina</td>
                         <td>3-5 días hábiles</td>
                     </tr>
-                    <tr id="Label">
+                    <tr>
                         <td>Europa</td>
                         <td>5-7 días hábiles</td>
                     </tr>
+                </tbody>
+                <tfoot>
                     <tr>
                         <td>Asia</td>
                         <td>7-10 días hábiles</td>
                     </tr>
-                </tbody>
+                </tfoot>
             </table>
         </section>
         <section>
             <h2>Contacto</h2>
             <p>¿Tienes dudas? ¡Nos encantaría ayudarte! Puedes contactarnos en cualquier momento:</p>
-            <p><em>Email:</em> <a href="mailto:soporte@fullstock.com"><em>soporte@fullstock.com </em></a><br>
-            <em>Teléfono: +1 234 567 890</em></p>
+            <p><em>Email:</em> <a href="mailto:soporte@fullstock.com"><em>soporte@fullstock.com </em></a><br></p>
+            <p><em>Teléfono: <a href="tel:+1 234 567 890">+1 234 567 890</a></em></p>
             <p>O visita nuestra <a href="../contacto.html">página de contacto</a> para más detalles.</p>
         </section>
     </main>
     <footer>
-        <section>
-            <p>&copy;  2023 FullStock. Todos los derechos reservados.</p>
-            <a href="#Pagina">Volver arriba</a>
-        </section>
+        <p>&copy;  2023 FullStock. Todos los derechos reservados.</p>
+        <a href="#Pagina">Volver arriba</a>
     </footer>
 </body>
 </html>
